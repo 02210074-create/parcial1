@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORMULARIOS - ALEXIS RODRIGUEZ - 633</title>
+</head>
+<body>
+
+<h2>FORMULARIOS</h2>	
+<h3>POR: ALEXIS RODRIGUEZ 633</h3>
+
+<p>LOS FORMULARIOS SON CAMPOS QUE PERMITEN LA ENTRADA DE DATOS, CON EL OBJETIVO DE QUE LA PAGINA PUEDA INTERACTUAR CON EL USUARIO.</p>
+<p>LOS DATOS MAS SOLICITADOS SON: NOMBRES, FECHAS DE NACIMIENTOS, TELEFONOS, CORREOS, CIUDADES, DINERO, ETC.</p>
+
+<hr>
+
+<h3>ESTE ES UN EJEMPLO DE UN FORMULARIO:</h3>
+
+<form>
+	<label>NOMBRE:</label>
+	<input type="TEXT" name="NOMBRE" maxlength="150" size="50" placeholder="NOMBRE COMPLETO:" required>
+	<br>
+	<label>CORREO ELECTRONICO:</label>
+
+	<input type="EMAIL" name="CORREO" placeholder="INGRESA CORREO" required>
+	<br>
+	<label>CONTRASEÑA:</label>
+	<input type="PASSWORD" name="PASS" placeholder="MINIMO 8 CARACTERES" minlength="8" required>
+
+
+	<br>
+	<label>FECHA DE NACIMIENTO:</label>
+	<input type="DATE" name="FECHA" required>
+
+	<br>
+	<label>NACIONALIDAD:</label>
+	<select>
+		<option SELECTED disabled>SELECCIONA UN PAIS</option>
+		<option>MEXICO</option>
+		<option>CANADA</option>
+		<option>USA</option>
+		<option>ESPAÑA</option>
+		<option>ALEMANIA</option>
+		<option>FRANCIA</option>
+		<option>AUSTRALIA</option>
+		<option>GROENLANDIA</option>
+		<option>BRASIL</option>
+		<option>CHINA</option>
+	</select>
+
+	<br>
+	<label>ELIGE TUS PASATIEMPOS</label> <br>
+
+	<input type="CHECKBOX" name="HOBBIE"> LEER <br>
+	<input type="CHECKBOX" name="HOBBIE"> ESCUCHAR MUSICA<br>
+	<input type="CHECKBOX" name="HOBBIE"> JUGAR VIDEOJUEGOS<br>
+	<input type="CHECKBOX" name="HOBBIE"> HACER DEPORTES <br>
+	<input type="CHECKBOX" name="HOBBIE"> VER PELICULAS/SERIES <br>
+	<input type="CHECKBOX" name="HOBBIE"> DIBUJAR <br>
+
+	<br>
+	<label>SELECCIONA SEXO:</label>
+	HOMBRE <input type="RADIO" name="GENERO">
+	MUJER <input type="RADIO" name="GENERO">
+	PREFIERO NO DECIRLO <input type="RADIO" name="GENERO">
+
+	<br>
+	<label>DEJA TU MENSAJE:</label>
+	<textarea placeholder="DEJA TU MENSAJE:"></textarea>
+
+
+	<br>
+
+	<input type="SUBMIT" name="BOTON" value="CONTACTAR AL 633">
+
+	<input type="RESET" name="BORRAR" value="LIMPIAR">
+
+<ul>
+	
+	<li><a href="../index.html">INDEX</a></li>
+
+</ul>
+
+
+
+
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+BODY{
+	background: gray;
+	color: lightgray;
+	font-family: CENTURY GOTHIC;
+}
+
+
+/*TITULO CON OTRO TIPO DE LETRA Y OTRO COLOR*/
+
+H1{
+	font-family: COURIER;
+	color: black;
+}
+
+/*EL PARRAFO #2 QUE ES EL DEL DIABLO, PONERLO EN NEGRITAS Y CURSIVA*/
+
+.DIABLO{
+font-weight: bolder;
+font-style: italic;
+
+}
+
+/*ENLACE 2 DE COLOR VERDE Y NEGRITAS */
+
+A{
+color: green;
+font-weight: BOLDER;
+
+}
+
+/*ENLACE 1 DE COLOR AMARILLO Y TAMAÑO 20*/
+
+P A{
+color: yellow;
+font-size: 20PX;
+
+}
